@@ -48,6 +48,8 @@ dependencies {
     implementation project(':opensearch-ml-search-processors')
     implementation project(':opensearch-ml-memory')
 
+    implementation "opensearch-sql:opensearch-sql-client:2.11.0.0-SNAPSHOT"
+
     implementation group: 'org.opensearch', name: 'opensearch', version: "${opensearch_version}"
     implementation "org.opensearch:common-utils:${common_utils_version}"
     compileOnly("com.fasterxml.jackson.core:jackson-annotations:${versions.jackson}")
